@@ -1,14 +1,14 @@
--- GUI Xperia HUB by ARMANSYAH112
+-- GUI ALL-SCRIPT by ARMANSYAH112
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local Window = OrionLib:MakeWindow({
-	Name = "🔷 XPERIA HUB | Script Executor by ARMANSYAH112",
+	Name = "📜 ALL-SCRIPT | by ARMANSYAH112",
 	HidePremium = false,
 	SaveConfig = false,
 	IntroEnabled = true
 })
 
 local ScriptTab = Window:MakeTab({
-	Name = "📜 All Scripts",
+	Name = "📁 Daftar Script",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -26,7 +26,7 @@ for _, script in pairs(scriptList) do
 end
 
 OrionLib:MakeNotification({
-	Name = "XPERIA HUB",
-	Content = "Berhasil memuat semua script buatan ARMANSYAH112!",
+	Name = "ALL-SCRIPT",
+	Content = "Semua script berhasil dimuat dari server ARMANSYAH112.",
 	Time = 4
 })
